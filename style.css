@@ -1,0 +1,294 @@
+/* For desktop */
+body {
+  max-width: 100%;
+  background-color: #efece7;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#container {
+  display: grid;
+}
+
+a {
+  color: #323333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#header-text {
+  color: rgb(70, 70, 69);
+}
+
+video {
+  max-width: 100%;
+  /* opacity: 0.8; */
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: rgb(70, 70, 69);
+  text-align: center;
+}
+
+p {
+  color: rgb(70, 70, 69);
+}
+
+.aside-text {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #efece7;
+  text-align: center;
+}
+
+/*---------------------------*/
+
+/* for mobile-phones */
+@media (min-width: 360px) and (max-width: 980px) {
+  body {
+    max-width: 100%;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  img {
+    max-width: 100%;
+    display: flex;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    padding-left: 30%;
+  }
+  /* DROP DOWN MENU + HAMBURGER MENU*/
+
+  .hamburger-lines {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(70, 70, 69);
+    margin: 5px 0;
+  }
+
+  .drop {
+    position: relative;
+    display: inline-block;
+  }
+  .content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    opacity: 0.8;
+    width: 40%;
+  }
+
+  .content a {
+    padding: 12px 16px;
+    display: block;
+  }
+
+  .conten a:hover {
+    background-color: wheat;
+  }
+
+  .drop:hover .content {
+    display: block;
+  }
+
+  /* -------------*/
+
+  ul {
+    display: none;
+  }
+
+  .info-txt {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 980px) {
+  h1 {
+    padding-left: 35%;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 980px) {
+  h1 {
+    padding-left: 35%;
+  }
+}
+
+@media (min-width: 548px) and (max-width: 980px) {
+  #hamburger {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+  li a {
+    display: flex;
+    padding: 35px;
+    font-size: 120%;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  h1 {
+    padding-left: 30%;
+    font-size: 50px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 638px) and (max-width: 980px) {
+  h1 {
+    padding-left: 34%;
+  }
+
+  ul {
+    padding-left: 10%;
+  }
+}
+@media (min-width: 652px) and (max-width: 980px) {
+  ul {
+    padding-left: 10%;
+  }
+  h1 {
+    padding-left: 35%;
+  }
+}
+@media (min-width: 744px) and (max-width: 980px) {
+  ul {
+    padding-left: 20%;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 80%;
+    padding-left: 2%;
+  }
+
+  h1 {
+    position: absolute;
+    padding-left: 36%;
+    font-size: 50px;
+    color: white;
+  }
+  .header-position {
+    position: absolute;
+  }
+
+  #aside-position {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 766px) and (max-width: 980px) {
+  ul {
+    padding-left: 20%;
+  }
+  /* h1 {
+    color: white;
+  } */
+}
+@media (min-width: 780px) and (max-width: 980px) {
+  ul {
+    padding-left: 10%;
+    display: flex;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  li a {
+    display: flex;
+    font-weight: bold;
+    padding-left: 50px;
+  }
+
+  img {
+    padding-left: 5%;
+  }
+}
+@media (min-width: 876px) and (max-width: 980px) {
+  ul {
+    padding-left: 15%;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  #row {
+    display: table;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 936px) and (max-width: 980px) {
+  ul {
+    padding-left: 17%;
+  }
+
+  h1 {
+    padding-left: 35%;
+  }
+
+  img {
+    padding-left: 20px;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 980px) and (max-width: 980px) {
+  ul {
+    padding-left: 20%;
+  }
+
+  h1 {
+    padding-left: 38%;
+  }
+}
